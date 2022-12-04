@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        function operacie(a = 4, b = 2){
+        
+        if(a == undefined){
+            a = 4;
+        }
+
+        if(b == undefined){
+            b = 2;
+        }
+
+        console.log("Číslo jeden je: " + a + ", číslo dva je: " + b);
+        console.log("Vykonávam matematické operácie.")
+        console.log(a + "+" + b + "=", a + b);
+        console.log(a + "-" + b + "=", a - b);
+        console.log(a + "*" + b + "=", a * b);
+        console.log(a + "/" + b + "=", a / b);
+        }
+
+        operacie();
+
+        
+
+    </script>
+</body>
+</html>
